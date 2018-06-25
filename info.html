@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registration Form </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+	<center>
+	<form action="info_db.php" method="post" enctype="multipart/form-data">
+	
+		<b>NEW REGISTRATION</b><br><br>
+		Username:
+		<input type="text" name="username" placeholder="Enter username"><br><br>
+		
+		First name:
+		<input type="text" name="first_name" placeholder="Enter first name"><br><br>
+		Last name:
+		<input type="text" name="last_name" placeholder="Enter last name" ><br><br>
+		Gender:
+		<input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="male">Female
+		<input type="radio" name="gender" value="male">Other<br><br>
+		Address:
+		<input type="text" name="address" placeholder="Enter address"><br><br>
+		Email:
+		<input type="text" name="email" placeholder="Enter email"><br><br>
+		Password:
+		<input type="password" name="password" placeholder="Enter password"><br><br>
+		Contact:
+		<input type="text" name="contact" placeholder="Enter phone number"><br><br>
+		
+		Photo:
+		<input type="file" name="image"><br><br>
+		
+		Video:
+		<input type="file" name="video"><br><br>
+		
+		<input type="submit" value="Submit" name="submit"><br><br>
+		
+	</form>
+	</center>
+	</div>
+</body>
+</html>
